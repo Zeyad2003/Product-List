@@ -6,7 +6,7 @@
 - Create a web project using JEE
 - Add a front controller for Managing products (add product, list products, remove product)
 - Add a page that lists products, beside each product a delete button.
-  - when pressing on it a request should be sent to the front controller to delete this product
+    - when pressing on it a request should be sent to the front controller to delete this product
 - Above the products list an add button that redirects to a new page for adding product.
 
 ---
@@ -19,5 +19,4 @@
 
 ---
 
-[Project Demo.webm](https://github.com/Zeyad2003/Product-List/assets/87117386/d8b654ec-0597-442f-bcc7-4ada557b2ba2)
-
+[Project Demo.webm](https://github.com/Zeyad2003/Product-List/assets/87117386/c7205c29-4cbe-4c4c-af60-f2943e4a1f69)

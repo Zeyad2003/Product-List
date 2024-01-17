@@ -1,4 +1,4 @@
-package fawry.servlettask;
+package fawry.productlist;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ public class ProductService {
     }
 
     public void addProduct(Product product) {
-        if(product.getPrice() < 0) throw new NumberFormatException("Invalid price");
+        if (product.getPrice() < 0) throw new NumberFormatException("Invalid price");
         productRepo.addProduct(product);
     }
 

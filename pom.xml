@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fawry</groupId>
-    <artifactId>Servlet-Task</artifactId>
+    <artifactId>Product-List</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Servlet-Task</name>
+    <name>Product-List</name>
     <packaging>war</packaging>
 
     <properties>
@@ -19,15 +19,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.20</version>
-        </dependency>
-        <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>5.0.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
         </dependency>
     </dependencies>
 

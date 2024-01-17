@@ -1,4 +1,4 @@
-<%@ page import="fawry.servlettask.Product" %>
+<%@ page import="fawry.productlist.Product" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -85,12 +85,15 @@
     </thead>
     <tbody>
     <%
-        for(Product product : (List<Product>) request.getAttribute("products")) {
+        for (Product product : (List<Product>) request.getAttribute("products")) {
     %>
     <tr>
-        <td><%= product.getId() %></td>
-        <td><%= product.getName() %></td>
-        <td><%= product.getPrice() %></td>
+        <td><%= product.getId() %>
+        </td>
+        <td><%= product.getName() %>
+        </td>
+        <td><%= product.getPrice() %>
+        </td>
         <td>
             <form action="${pageContext.request.contextPath}/product-servlet" method="post">
                 <input type="hidden" name="action" value="delete">

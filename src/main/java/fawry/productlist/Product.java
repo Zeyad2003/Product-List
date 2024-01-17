@@ -1,4 +1,4 @@
-package fawry.servlettask;
+package fawry.productlist;
 
 import lombok.Getter;
 

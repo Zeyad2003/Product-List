@@ -1,4 +1,4 @@
-package fawry.servlettask;
+package fawry.productlist;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
